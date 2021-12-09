@@ -31,6 +31,6 @@ getLink.getCookieCsrf().then(() => {
   });
 
   app.listen(port, () => {
-    console.log(`Server dang chay tren cong ${port}`);
+    console.log(`Tool is running on port ${port}`);
   });
 });
