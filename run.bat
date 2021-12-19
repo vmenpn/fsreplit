@@ -1,3 +1,8 @@
 @echo off
-call npm start
-call run.bat
+cls
+:start
+npm start
+@echo.
+@echo Restarting server...
+@echo.
+goto start
